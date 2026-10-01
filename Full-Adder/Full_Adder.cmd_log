@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "/home/ise/Oracle_project/Full-Adder/Full_Adder.xst" -ofn "/home/ise/Oracle_project/Full-Adder/Full_Adder.syr" 
