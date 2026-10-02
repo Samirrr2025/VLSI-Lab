@@ -1,1 +1,0 @@
--intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "/home/ise/Oracle_project/Full-Adder/Full_Adder_tb_isim_beh.exe" -prj "/home/ise/Oracle_project/Full-Adder/Full_Adder_tb_beh.prj" "work.Full_Adder_tb" "work.glbl" 
