@@ -22,67 +22,129 @@
   <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="cpu_set3.xise"/>
 
   <files xmlns="http://www.xilinx.com/XMLSchema">
-    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="cpu_tb_beh.prj"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="acc_z.ngr"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="acc_z_tb_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="acc_z_tb_stx_beh.prj"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="alu.ngr"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="alu_tb_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="alu_tb_stx_beh.prj"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="control_unit.ngr"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="control_unit_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="control_unit_stx_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="control_unit_tb_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="control_unit_tb_stx_beh.prj"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="cpu_tb_isim_beh.exe"/>
-    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="cpu_tb_isim_beh.wdb"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="cpu_top.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="cpu_top.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="cpu_top.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="cpu_top.ngr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="cpu_top.prj"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="cpu_top.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="cpu_top.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="cpu_top.xst"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="cpu_top_summary.html"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="cpu_top_xst.xrpt"/>
     <file xil_pn:fileType="FILE_LOG" xil_pn:name="fuse.log"/>
     <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="isim"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_CMD" xil_pn:name="isim.cmd"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_LOG" xil_pn:name="isim.log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="pc.ngr"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="pc_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="pc_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="pc_tb_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="pc_tb_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="pc_tb_isim_beh.wdb"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="pc_tb_stx_beh.prj"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="prog_rom.ngr"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="prog_rom_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="prog_rom_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="prog_rom_tb_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="webtalk_pn.xml"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_INI" xil_pn:name="xilinxsim.ini"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
   </files>
 
   <transforms xmlns="http://www.xilinx.com/XMLSchema">
     <transform xil_pn:end_ts="1792348482" xil_pn:name="TRAN_copyInitialToAbstractSimulation" xil_pn:start_ts="1792348482">
       <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1792348482" xil_pn:in_ck="3337237609032001921" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1792348482">
+    <transform xil_pn:end_ts="1792760943" xil_pn:in_ck="-7613436790206970700" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1792760943">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <outfile xil_pn:name="acc_z.vhd"/>
+      <outfile xil_pn:name="acc_z_tb.vhd"/>
       <outfile xil_pn:name="alu.vhd"/>
+      <outfile xil_pn:name="alu_tb.vhd"/>
       <outfile xil_pn:name="control_unit.vhd"/>
+      <outfile xil_pn:name="control_unit_tb.vhd"/>
       <outfile xil_pn:name="cpu_tb.vhd"/>
       <outfile xil_pn:name="cpu_top.vhd"/>
       <outfile xil_pn:name="pc.vhd"/>
+      <outfile xil_pn:name="pc_tb.vhd"/>
       <outfile xil_pn:name="prog_rom.vhd"/>
+      <outfile xil_pn:name="prog_rom_tb.vhd"/>
     </transform>
-    <transform xil_pn:end_ts="1792348482" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="7336069080376429228" xil_pn:start_ts="1792348482">
+    <transform xil_pn:end_ts="1792760996" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="-3867736490700953193" xil_pn:start_ts="1792760996">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
+    </transform>
+    <transform xil_pn:end_ts="1792760996" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="5592335129669782549" xil_pn:start_ts="1792760996">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
+    </transform>
+    <transform xil_pn:end_ts="1792759815" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="-4516794377761965228" xil_pn:start_ts="1792759815">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1792348482" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="-8028085567083940054" xil_pn:start_ts="1792348482">
+    <transform xil_pn:end_ts="1792760945" xil_pn:in_ck="-7613436790206970700" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1792760945">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-    </transform>
-    <transform xil_pn:end_ts="1792348482" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="8680377141976825666" xil_pn:start_ts="1792348482">
-      <status xil_pn:value="SuccessfullyRun"/>
-      <status xil_pn:value="ReadyToRun"/>
-    </transform>
-    <transform xil_pn:end_ts="1792348482" xil_pn:in_ck="3337237609032001921" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1792348482">
-      <status xil_pn:value="SuccessfullyRun"/>
-      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
       <outfile xil_pn:name="acc_z.vhd"/>
+      <outfile xil_pn:name="acc_z_tb.vhd"/>
       <outfile xil_pn:name="alu.vhd"/>
+      <outfile xil_pn:name="alu_tb.vhd"/>
       <outfile xil_pn:name="control_unit.vhd"/>
+      <outfile xil_pn:name="control_unit_tb.vhd"/>
       <outfile xil_pn:name="cpu_tb.vhd"/>
       <outfile xil_pn:name="cpu_top.vhd"/>
       <outfile xil_pn:name="pc.vhd"/>
+      <outfile xil_pn:name="pc_tb.vhd"/>
       <outfile xil_pn:name="prog_rom.vhd"/>
+      <outfile xil_pn:name="prog_rom_tb.vhd"/>
     </transform>
-    <transform xil_pn:end_ts="1792348487" xil_pn:in_ck="3337237609032001921" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="-4552661364238125057" xil_pn:start_ts="1792348482">
+    <transform xil_pn:end_ts="1792760998" xil_pn:in_ck="-7613436790206970700" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="-8778439123649920683" xil_pn:start_ts="1792760996">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <outfile xil_pn:name="cpu_tb_beh.prj"/>
-      <outfile xil_pn:name="cpu_tb_isim_beh.exe"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="fuse.log"/>
       <outfile xil_pn:name="isim"/>
+      <outfile xil_pn:name="isim.log"/>
+      <outfile xil_pn:name="pc_tb_beh.prj"/>
+      <outfile xil_pn:name="pc_tb_isim_beh.exe"/>
       <outfile xil_pn:name="xilinxsim.ini"/>
     </transform>
-    <transform xil_pn:end_ts="1792348487" xil_pn:in_ck="-7041773039901887060" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="-4705029566550098164" xil_pn:start_ts="1792348487">
+    <transform xil_pn:end_ts="1792760998" xil_pn:in_ck="-6204663856993906538" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="-2389408332992311902" xil_pn:start_ts="1792760998">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <outfile xil_pn:name="cpu_tb_isim_beh.wdb"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="isim.cmd"/>
+      <outfile xil_pn:name="isim.log"/>
+      <outfile xil_pn:name="pc_tb_isim_beh.wdb"/>
+    </transform>
+    <transform xil_pn:end_ts="1792682477" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1792682477">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
     </transform>
   </transforms>
 

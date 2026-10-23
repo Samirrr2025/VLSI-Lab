@@ -1,32 +1,22 @@
-Running: /opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/fuse -relaunch -intstyle "ise" -incremental -lib "secureip" -o "/home/ise/Vlsi_Final/cpu_set3/cpu_tb_isim_beh.exe" -prj "/home/ise/Vlsi_Final/cpu_set3/cpu_tb_beh.prj" "work.cpu_tb" 
+Running: /opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/fuse -intstyle ise -incremental -lib secureip -o /home/ise/Vlsi_Final/cpu_set3/prog_rom_tb_isim_beh.exe -prj /home/ise/Vlsi_Final/cpu_set3/prog_rom_tb_beh.prj work.prog_rom_tb 
 ISim P.20131013 (signature 0xfbc00daa)
 Number of CPUs detected in this system: 1
 Turning on mult-threading, number of parallel sub-compilation jobs: 0 
 Determining compilation order of HDL files
 Parsing VHDL file "/home/ise/Vlsi_Final/cpu_set3/prog_rom.vhd" into library work
-Parsing VHDL file "/home/ise/Vlsi_Final/cpu_set3/pc.vhd" into library work
-Parsing VHDL file "/home/ise/Vlsi_Final/cpu_set3/control_unit.vhd" into library work
-Parsing VHDL file "/home/ise/Vlsi_Final/cpu_set3/alu.vhd" into library work
-Parsing VHDL file "/home/ise/Vlsi_Final/cpu_set3/acc_z.vhd" into library work
-Parsing VHDL file "/home/ise/Vlsi_Final/cpu_set3/cpu_top.vhd" into library work
-Parsing VHDL file "/home/ise/Vlsi_Final/cpu_set3/cpu_tb.vhd" into library work
+Parsing VHDL file "/home/ise/Vlsi_Final/cpu_set3/prog_rom_tb.vhd" into library work
 Starting static elaboration
 Completed static elaboration
-Fuse Memory Usage: 96836 KB
-Fuse CPU Usage: 450 ms
+Fuse Memory Usage: 96824 KB
+Fuse CPU Usage: 440 ms
 Compiling package standard
 Compiling package std_logic_1164
 Compiling package numeric_std
-Compiling architecture rtl of entity pc [pc_default]
 Compiling architecture rtl of entity prog_rom [prog_rom_default]
-Compiling architecture rtl of entity control_unit [control_unit_default]
-Compiling architecture rtl of entity alu [alu_default]
-Compiling architecture rtl of entity acc_z [acc_z_default]
-Compiling architecture structural of entity cpu_top [cpu_top_default]
-Compiling architecture sim of entity cpu_tb
+Compiling architecture sim of entity prog_rom_tb
 Time Resolution for simulation is 1ps.
-Compiled 16 VHDL Units
-Built simulation executable /home/ise/Vlsi_Final/cpu_set3/cpu_tb_isim_beh.exe
-Fuse Memory Usage: 111668 KB
-Fuse CPU Usage: 580 ms
-GCC CPU Usage: 230 ms
+Compiled 6 VHDL Units
+Built simulation executable /home/ise/Vlsi_Final/cpu_set3/prog_rom_tb_isim_beh.exe
+Fuse Memory Usage: 111492 KB
+Fuse CPU Usage: 540 ms
+GCC CPU Usage: 190 ms
