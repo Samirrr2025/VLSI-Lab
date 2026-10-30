@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "/home/ise/Vlsi_lab/Register/Register/register_1bit.xst" -ofn "/home/ise/Vlsi_lab/Register/Register/register_1bit.syr" 
